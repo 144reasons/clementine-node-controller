@@ -17,3 +17,8 @@ Make sure [Clementine](https://www.clementine-player.org/) is installed, and add
 ### Adding folder to Music Library
 
 Press `CTRL + P`, and go to the Music Library folder. Press `Add new folder...` and select the `downloaded` folder in this repo. Should be all
+
+## Showcase
+
+https://youtu.be/uHQvJGqM_VE
+https://youtu.be/4YgSq5lLIac
