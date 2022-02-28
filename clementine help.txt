@@ -1,0 +1,34 @@
+Usage: clementine [options] [URL(s)]
+
+Player options:
+  -p, --play                Start the playlist currently playing
+  -t, --play-pause          Play if stopped, pause if playing
+  -u, --pause               Pause playback
+  -s, --stop                Stop playback
+  -q, --stop-after-current  Stop playback after current track
+  -r, --previous            Skip backwards in playlist
+  -f, --next                Skip forwards in playlist
+  -v, --volume <value>      Set the volume to <value> percent
+  --volume-up               Increase the volume by 4 percent
+  --volume-down             Decrease the volume by 4 percent
+  --volume-increase-by      Increase the volume by <value> percent
+  --volume-decrease-by      Decrease the volume by <value> percent
+  --seek-to <seconds>       Seek the currently playing track to an absolute position
+  --seek-by <seconds>       Seek the currently playing track by a relative amount
+  --restart-or-previous     Restart the track, or play the previous track if within 8 seconds of start.
+
+Playlist options:
+  -c, --create <name>       Create a new playlist with files/URLs
+  -a, --append              Append files/URLs to the playlist
+  -l, --load                Loads files/URLs, replacing current playlist
+  -k, --play-track <n>      Play the <n>th track in the playlist
+
+Other options:
+  -o, --show-osd            Display the on-screen-display
+  -y, --toggle-pretty-osd   Toggle visibility for the pretty on-screen-display
+  -g, --language <lang>     Change the language
+      --quiet               Equivalent to --log-levels *:1
+      --verbose             Equivalent to --log-levels *:3
+      --log-levels <levels> Comma separated list of class:level, level is 0-3
+      --version             Print out version information
+  -x, --delete-current      Delete the currently playing song

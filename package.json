@@ -1,0 +1,14 @@
+{
+  "name": "clementine-node-controller",
+  "version": "1.0.0",
+  "description": "Tool that uses the clementine CLI and exec to control the player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GNU GPL v3.0",
+  "dependencies": {
+    "terminal-kit": "^2.4.0"
+  }
+}
